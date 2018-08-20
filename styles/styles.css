@@ -150,9 +150,23 @@ label {
 input {
 	border: none;
 	width: 95%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	border-radius: 2px;
 }
 .note {
 	height: 5rem;
+}
+button {
+	background-color: #721817;
+	font-family: 'Amatic SC', cursive;
+	width: 6em;
+	height: 1.5em;
+	font-size: 1.5em;
+	color: white;
+	margin-top: 1em;
+	border: none;
+	border-radius: 2px;
 }
 
 footer {

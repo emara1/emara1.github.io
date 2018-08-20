@@ -67,6 +67,7 @@
 
 		<label>Note</label>
 		<input type="text" id="note">
+		<button>Submit</button>
 	</section>
 	<footer>
 		<img src="images/instagram-font-logo-white-png.png" alt="Instagram">
@@ -81,6 +82,12 @@
 	<script>
 		$('.menu-toggle').click(function(){
 			$('nav').toggleClass('open')
+		})
+	</script>
+	<script>
+		$('button').click(function(){
+			$('button').text("Thank you")
+			$('input').val('')
 		})
 	</script>
 </body>
